@@ -7,9 +7,15 @@
 	</head>
 	<body>
 		<header>
-		<nav id="menu">
-	
-		</nav>
+			<form action="traitement-formulaire.php" method="POST">
+				<p>
+					<label for="identifiant">Identifiant: </label><input type="text" name="id" id="id" placeholder="Votre identifiant ici"/><br/>
+					<label for="motdepass">Mot de passe :</label><input type="text" name="mdp" id ="mdp" placeholder="Votre mot de passe ici"/><br/>
+					<input type="submit" name="valider" value="valider">
+					<input type="reset" name="reset" value="Réinitialiser" id="reset">
+				</p>
+			</form>
+		</header>
 		<section>
 			<!--<p>
 				Cette application permet à tous, de communiquer avec l'administrateur réseau, et ce très facilement. Un système de messagerie différée est désormais disponible. Vous pouvez dès à présent relayer, dès que le besoin s'en fait sentir, chaque information ou requête que vous jugez bon de lui transmettre. Un identifiant manquant, un ordianteur défaillant, etc... Tout ce qui pourrait vous paraître important quant à l'amélioration des services informatiques de l'établissement.
