@@ -16,22 +16,6 @@
 /*
 * MENU
 */
-
-/*
-* SECTION
-*/
-#description{
-	width : 150px;
-	height : 200px;
-	margin-top : 20px;
-	
-
-}
-
-
-
-/*Fin de section*/
-
 #menu{
 	font-family: arial;
 	font-size: 15px;
@@ -81,3 +65,19 @@
 	font-weight: normal;
 
 }
+
+/*
+* SECTION
+*/
+p{
+	width : 150px;
+	height : 200px;
+	margin-top : 20px;
+	
+
+}
+
+
+
+/*Fin de section*/
+
