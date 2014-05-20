@@ -4,6 +4,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
+<<<<<<< HEAD
 	list-style-type : none;
 }
 #menu {
@@ -23,12 +24,23 @@ li{
 #accueil{
 	margin-left : 500px;
 	margin-top : 50px;
+=======
+	text-decoration: none;
+	font-family: arial;
+>>>>>>> ac1e9a3ce6e56bcac47b9be087d1ff1e6295fbda
 }
 /*
 * HEADER
 */
+header{
+	height: 200px;
+	background-image: url("../img/1396.png");
+	overflow: hidden;
+}
 
-
+header img{
+	width: 180px;
+}
 
 /*
 * MENU
@@ -40,6 +52,7 @@ li{
 #description{
 	width : 150px;
 	height : 200px;
+<<<<<<< HEAD
 }
 /*Fin de section*/
 
@@ -106,3 +119,7 @@ p{
 
 /*Fin de section*/
 
+=======
+
+}
+>>>>>>> ac1e9a3ce6e56bcac47b9be087d1ff1e6295fbda
