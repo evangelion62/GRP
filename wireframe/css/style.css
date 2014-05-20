@@ -25,36 +25,12 @@ header img{
 /*
 * MENU
 */
-#menu{
-	height:50px;
-	background-color: #303030;
-	overflow: hidden;
-}
 
-#menu li{
-	overflow:hidden;
-	height:50px;
-	text-align:center;
-	display: inline-block;
-}
-#menu a{
-	display:block;
-	height:50px;
-	color:white;
-}
-#menu li:hover{
-	background-color: #2db2ea;
-}
 /*
 * SECTION
 */
-section p{
+#description{
 	width : 150px;
 	height : 200px;
-	margin-top : 20px;
+
 }
-
-
-
-/*Fin de section*/
-
