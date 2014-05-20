@@ -16,24 +16,20 @@
 /*
 * MENU
 */
-#menu ul
-{
+#menu{
 	font-family: arial;
 	font-size: 15px;
 	font-weight : bold;
 }
+
 #menu li
 {
 	list-style-type: none;
 	float: left;
-	position: relative;
 	background-color: #303030;
-	letter-spacing: 1px;
-	border-bottom: 1px solid grey;
 }
 #menu ul li a
 {
-	color: black;
 	text-decoration: none;
 	width: 190px;
 	height: 25px;
