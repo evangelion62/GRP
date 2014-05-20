@@ -1,11 +1,23 @@
-﻿#menu{
-	margin-left: 30px;
-	width: 960px;
-}
-#menu ul
-{
+/*
+* ALL
+*/
+*{
 	margin: 0px;
 	padding: 0px;
+}
+
+
+/*
+* HEADER
+*/
+
+
+
+/*
+* MENU
+*/
+#menu ul
+{
 	font-family: arial;
 	font-size: 15px;
 	font-weight : bold;
