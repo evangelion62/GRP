@@ -38,8 +38,14 @@
 	font-size: 15px;
 	font-weight : bold;
 }
+p{
+	width : 150px;
+	height : 200px;
+	margin-top : 20px;
+	
 
-#menu li
+}
+/**#menu li
 {
 	list-style-type: none;
 	float: left;
@@ -82,17 +88,11 @@
 	font-weight: normal;
 
 }
-
+**/
 /*
 * SECTION
 */
-p{
-	width : 150px;
-	height : 200px;
-	margin-top : 20px;
-	
 
-}
 
 
 
