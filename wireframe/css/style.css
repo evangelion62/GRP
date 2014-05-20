@@ -16,6 +16,7 @@
 /*
 * MENU
 */
+<<<<<<< HEAD
 
 /*
 * SECTION
@@ -30,6 +31,8 @@
 
 /*Fin de section*/
 
+=======
+>>>>>>> a7da9ee31201fe3bbf74b8eee6df494179433f89
 #menu{
 	font-family: arial;
 	font-size: 15px;
@@ -79,3 +82,19 @@
 	font-weight: normal;
 
 }
+
+/*
+* SECTION
+*/
+p{
+	width : 150px;
+	height : 200px;
+	margin-top : 20px;
+	
+
+}
+
+
+
+/*Fin de section*/
+
