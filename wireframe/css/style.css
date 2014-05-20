@@ -4,9 +4,26 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	list-style-type : none;
 }
-
-
+#menu {
+	width : 100%;
+	height : 600px;
+	border : 1px solid black;
+}
+li{
+	width : 200px;
+	height : 150px;
+	border : 1px solid red;
+}
+#connexion{
+	margin-left : 550px;
+	margin-top : 50px;
+}
+#accueil{
+	margin-left : 500px;
+	margin-top : 50px;
+}
 /*
 * HEADER
 */
@@ -16,7 +33,6 @@
 /*
 * MENU
 */
-<<<<<<< HEAD
 
 /*
 * SECTION
@@ -24,15 +40,9 @@
 #description{
 	width : 150px;
 	height : 200px;
-
 }
-
-
-
 /*Fin de section*/
 
-=======
->>>>>>> a7da9ee31201fe3bbf74b8eee6df494179433f89
 #menu{
 	font-family: arial;
 	font-size: 15px;
@@ -42,8 +52,6 @@ p{
 	width : 150px;
 	height : 200px;
 	margin-top : 20px;
-	
-
 }
 /**#menu li
 {
