@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="UTF-8"/>
-		<title>GRP - Réseau</title>
+		<title><?php echo $pageTitle;?></title>
 		<link rel="stylesheet" href="css/style.css"/>
 	</head>
 	
@@ -12,12 +12,12 @@
 			<h1>GRP</h1>
 			<nav>
 				<ul>
-					<li ><a href="index.html"><span class="glyphicon glyphicon-home"></span><br/>Réseau</a></li>
-					<li><a href="user.html"><span class="glyphicon glyphicon-user"></span><br/>Utilisateurs</a></li>
+					<li ><a href="index.html.php"><span class="glyphicon glyphicon-home"></span><br/>Réseau</a></li>
+					<li><a href="user.html.php"><span class="glyphicon glyphicon-user"></span><br/>Utilisateurs</a></li>
 					<li><a href="#"><span class="glyphicon glyphicon-tags"></span><br/>Tikets</a></li>
 					<li><a href="#"><span class="glyphicon glyphicon-book"></span><br/>Doc</a></li>
 					<li><a href="#"><span class="glyphicon glyphicon-cog"></span><br/>Paramétres</a></li>
-				<ul>
+				</ul>
 			</nav>
 		</header>
 		
