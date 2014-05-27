@@ -7,21 +7,20 @@
 	</head>
 	<body>
 		<header>
-			<form action="traitement-formulaire.php" method="POST">
-				<p>
-					<label for="identifiant">Identifiant: </label><input type="text" name="id" id="id" placeholder="Votre identifiant ici"/><br/>
-					<label for="motdepass">Mot de passe :</label><input type="text" name="mdp" id ="mdp" placeholder="Votre mot de passe ici"/><br/>
-					<input type="submit" name="valider" value="valider">
-					<input type="reset" name="reset" value="Réinitialiser" id="reset">
-				</p>
-			</form>
+			<div id="connection">
+				<form action="traitement-formulaire.php" method="POST">
+					<p>
+						<h1 id="logo">GRP</h1>
+						<label for="identifiant"><b>Identifiant:</b></label><input type="text" name="id" id="id" placeholder="Votre identifiant ici"/><br/>
+						<label for="motdepass"><b>Mot de passe :</b></label><input type="text" name="mdp" id ="mdp" placeholder="Votre mot de passe ici"/></br>
+						<div class="center">
+							<input type="reset" name="reset" value="Réinitialiser" id="reset">
+							<input type="submit" name="valider" value="Valider" id="valider">
+						</div>
+					</p>
+				</form>
+			</div>
 		</header>
-		<section>
-			<!--<p>
-				Cette application permet à tous, de communiquer avec l'administrateur réseau, et ce très facilement. Un système de messagerie différée est désormais disponible. Vous pouvez dès à présent relayer, dès que le besoin s'en fait sentir, chaque information ou requête que vous jugez bon de lui transmettre. Un identifiant manquant, un ordianteur défaillant, etc... Tout ce qui pourrait vous paraître important quant à l'amélioration des services informatiques de l'établissement.
-			</p>-->
-		</section>
-		
 		<footer>
 		</footer>
 	</body>
