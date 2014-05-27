@@ -31,21 +31,36 @@ input{
 	font-weight : bold;
 	background-color: #bdc3c7;
 	border: none;
+<<<<<<< HEAD
 }
 #reset{
 	margin-top : 25px;
 	color : white;
 	background-color :#2b3d50;
+=======
+	padding : 2px;
+}
+#reset{
+	margin-top : 25px;
+	margin-left : 40px;
+	color : white;
+	background-color :#27ae60;
+>>>>>>> a95831da843f37cd61d4d68c42dd0538600059bd
 	width : 100px;
 	padding : 10px;
 	border : none;
 	display : block;
 }
+<<<<<<< HEAD
 #reset:hover{
 	background-color: #27ae60;
 }
 #valider{
 	background-color: #2b3d50;
+=======
+#valider{
+	background-color: #27ae60;
+>>>>>>> a95831da843f37cd61d4d68c42dd0538600059bd
     border: none;
     color: #FFFFFF;
     display: block;
@@ -54,9 +69,12 @@ input{
     padding: 10px;
     width: 100px;
 }
+<<<<<<< HEAD
 #valider:hover{
 	background-color: #27ae60;
 }
+=======
+>>>>>>> a95831da843f37cd61d4d68c42dd0538600059bd
 #id{
 	margin-left : 39px;
 }
