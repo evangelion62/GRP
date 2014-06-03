@@ -1,6 +1,4 @@
-/*
-* ALL
-*/
+/***************************************************ALL********************************************************/
 *{
 	margin: 0px;
 	padding: 0px;
@@ -10,69 +8,54 @@
 body{
 	background-color: #ecf0f1;
 }
-form{
+.center{
+	margin : auto;
+	text-align: center;
+	margin-top : 30px;
+	margin-left : 40px;
+}
+.center input{
+	margin-right : 20px;
+}
+/************************************************ conectFrame***************************************************/
+#conectFrame{
+	width : 300px;
+	height: 180px;
+	color : #bcbcbc;
+	background-color : #2b3d50;
+	margin : auto;
+	margin-top: 100px;
+}
+#conectFrame header{
 	margin : auto;
 	margin-top : 100px;
-	width : 305px;
+	width : 300px;
 	height : 200px;
-	padding : 15px;
 	background-color : #2c3e50;
 	overflow : hidden;
 }
+#conectFrame #id{
+	margin : auto;
+	margin-left : 25px;
+	margin-bottom : 10px;
+}
 
-label,input{
-	margin: 10px;
-	margin-top : 20px;
+#conectFrame p{
+	margin-top : 15px;
 }
-label{
-	color : #bcbcbc;
+#conectFrame #mdp{
+	margin : auto;
 }
-input{
+#conectFrame label{
+	margin-left : 15px;
+}
+#conectFrame input{
 	font-weight : bold;
 	background-color: #bdc3c7;
 	border: none;
+	height : 20px;
 }
-#reset{
-	margin-top : 25px;
-	color : white;
-	background-color :#2b3d50;
-	padding : 2px;
-}
-#reset{
-	margin-top : 25px;
-	margin-left : 40px;
-	color : white;
-	background-color :#27ae60;
-	width : 100px;
-	padding : 10px;
-	border : none;
-	display : block;
-}
-#reset:hover{
-	background-color: #27ae60;
-}
-#valider{
-	background-color: #2b3d50;
-}
-#valider{
-	background-color: #27ae60;
-    border: none;
-    color: #FFFFFF;
-    display: block;
-    margin-left: 170px;
-    margin-top: -48px;
-    padding: 10px;
-    width: 100px;
-}
-#valider:hover{
-	background-color: #27ae60;
-}
-
-#id{
-	margin-left : 39px;
-}
-#logo{
-	color: white;
+#conectFrame h1{
 	color: #27ae60;
 	font-family: arial;
 	text-align: center;
@@ -81,9 +64,4 @@ input{
 	height : 40px;
 	text-align : center;
 	text-shadow: 0 0 1px #FFFFFF;
-}
-
-.center{
-	margin : auto;
-	text-align: center;
 }

@@ -3,25 +3,25 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="css/style.css"/>
-    <title>GPR-FO-connexion</title>
+		<title>GPR-FO-connexion</title>
 	</head>
 	<body>
 		<header>
-			<div id="connection">
+			<div id="conectFrame">
+				<h1>GRP</h1>
 				<form action="traitement-formulaire.php" method="POST">
 					<p>
-						<h1 id="logo">GRP</h1>
-						<label for="identifiant"><b>Identifiant:</b></label><input type="text" name="id" id="id" placeholder="Votre identifiant ici"/><br/>
-						<label for="motdepass"><b>Mot de passe :</b></label><input type="text" name="mdp" id ="mdp" placeholder="Votre mot de passe ici"/></br>
+						<label for="id"><b>Identifiant :</b></label><input type="text" name="id" id="id" placeholder="Votre identifiant ici"/>
+						<br/>
+						<label for="mdp"><b>Mot de passe :</b></label><input type="text" name="mdp" id ="mdp" placeholder="Votre mot de passe ici"/>
+						<br/>
 						<div class="center">
-							<input type="reset" name="reset" value="Réinitialiser" id="reset">
-							<input type="submit" name="valider" value="Valider" id="valider">
+							<input type="reset" name="reset" id="reset" value="Réinitialiser">
+							<input type="submit" name="valider" id="valider" value="Valider">
 						</div>
 					</p>
 				</form>
 			</div>
 		</header>
-		<footer>
-		</footer>
 	</body>
 </html>
