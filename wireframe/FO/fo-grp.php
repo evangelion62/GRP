@@ -7,20 +7,11 @@
 	</head>
 	<body>
 		<header>
-<<<<<<< HEAD
-			<h1>GRP</h1>
-			<nav class="navTicket">
-				<ul>
-					<li class="addTicket"><a href="/fo/fo-grp.html">Ajouter un ticket</a></li>
-					<li class="ticketCours"><a href="/fo/gpr-fo-ticket-cours.html">Tickets en cours</a></li>
-					<li class="ticketHistorique"><a href="/FO/gpr-fo-historique.html">Historique des tickets</a></li>
-=======
 			<nav class="navTicket">
 				<ul>
 					<li class="addTicket">Ajouter un ticket</li>
 					<li class="ticketCours">Tickets en cours</li>
 					<li class="ticketHistorique"><a href="GPR-FO-Historique.php">Historique des tickets</a></li>
->>>>>>> 456d2c396faa811f8d17dc220e9243be8d270955
 				</ul>
 			</nav>
 		</header>
@@ -53,8 +44,6 @@
 						</br>
 						<label for="date">Fixer une date : </label><input type="date" name="calendar" id="calendrier"/>
 						</br>
-					<p/>
-					<p class ="description-textaera">
 						<label for="description-pb">Décrivez votre problème :</label><br />
 						<textarea name="text-aera-description" id="text-aera-description"></textarea>
 					</p>
