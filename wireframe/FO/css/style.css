@@ -92,6 +92,7 @@ h1{
 	width : 100%;
 	height : 50px;
 	background-color: #3498db;
+	margin-bottom : 100px;
 }
 .navTicket ul li {
 	width : 33%;
@@ -104,57 +105,36 @@ h1{
 	color : black;
 	padding-top : 20px;
 }
-.addTicket:hover{
-	background-color : white;
-	border : 5px solid #3498db;
-}
-.ticketCours:hover{
-	background-color : white;
-	border : 5px solid #3498db;
-}
-.ticketHistorique:hover{
-	background-color : white;
-	border : 5px solid #3498db;
-	}
-.navTicket{
-	width : 100%;
-	height : 60px;
-	background-color: #3498db;
-}
-.navTicket ul li {
-	width : 33%;
-	height : 50px;
-	float : left;
-	text-align : center;
-	list-style-type : none;
-	font-size : 20px;
-	color : black;
-}
 .navTicket ul li a{
 	text-align : center;
 	list-style-type : none;
 	color : black;
 }
+.addTicket:hover{
+	background-color : white;
+	border : 3px solid #3498db;
+}
+.ticketCours:hover{
+	background-color : white;
+	border : 3px solid #3498db;
+}
+.ticketHistorique:hover{
+	background-color : white;
+	border : 3px solid #3498db;
+	}
+
+
 /****************************************************--AJOUT-TICKET--********************************************/
 .formTicket{
-	background-color : white;
-}
-.formTicket h2{
-	margin : 30px;
-}
-.formTicket{
 	width : 100%;
-	height : 100%;
+	height : 800px;
 	margin : center;
 	padding : 20px;
 	float : left;
-	margin-top : 100px;
+	background-color : white;
 }
-.formTicket{
-	width : 33%;
-	height : 600px;
-	margin : center;
-	padding : 20px;
+.formTicket h2{
+	margin-top : 30px;
 }
 .formTicket input,.formTicket select{
 	margin: 10px;
