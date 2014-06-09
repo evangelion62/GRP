@@ -90,7 +90,7 @@ h1{
 }
 .navTicket{
 	width : 100%;
-	height : 50px;
+	height : 70px;
 	background-color: #3498db;
 	margin-bottom : 100px;
 }
@@ -109,6 +109,8 @@ h1{
 	text-align : center;
 	list-style-type : none;
 	color : black;
+	font-size : 25px;
+	text-decoration : none;
 }
 .addTicket:hover{
 	background-color : white;
