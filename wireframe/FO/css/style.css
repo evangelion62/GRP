@@ -6,7 +6,7 @@
 	font-family : arial;
 }
 body{
-	background-color: #ecf0f1;
+	background-color: #ffffff;
 }
 .center{
 	margin : auto;
@@ -76,4 +76,101 @@ body{
 	text-align : center;
 	text-shadow: 0 0 2px #FFFFFF;
 	margin-top : 10px;
+}
+/****************************************************--NAV-TICKET-***********************************************/
+h1{
+	text-align : center;
+	margin-top : 20px;
+	width : 100%;
+	height : 40px;
+	background-color: #3498db;
+	color : white;
+	font-size : 35px;
+	text-shadow: 0 0 2px #FFFFFF;
+}
+.navTicket{
+	width : 100%;
+	height : 50px;
+	background-color: #3498db;
+}
+.navTicket ul li {
+	width : 33%;
+	height : 40px;
+	float : left;
+	text-align : center;
+	color : white;
+	font-size : 15px;
+	list-style-type: none;
+	color : black;
+	padding-top : 20px;
+}
+.addTicket:hover{
+	background-color : white; 
+}
+.ticketCours:hover{
+	background-color : white; 
+}
+.ticketHistorique:hover{
+	background-color : white;
+}
+/****************************************************--AJOUT-TICKET--********************************************/
+.formTicket{
+	background-color : white;
+}
+.formTicket h2{
+	margin : 30px;
+}
+.formTicket{
+	width : 100%;
+	height : 100%;
+	margin : center;
+	padding : 20px;
+	float : left;
+}
+.formTicket input,.formTicket select{
+	margin: 10px;
+}
+.formTicket .description-textaera{
+	margin-top : 20px;
+	width : 400px;
+	height : 300px;
+}
+/******************************************************---TICKETS-EN-COURS---**************************************/
+.grpHisto h2{
+	width : 200px;
+	height : 300px;
+	border : 1px solid black;
+
+}
+/******************************************************---HISTORIQUE---********************************************/
+.ticketTraitement{
+	background-color : white;
+}
+.ticketTraitement h2{
+	margin : 30px;
+}
+
+.ticketTraitement{
+	width : 100%;
+	height : 100%;
+	margin : center;
+	padding : 20px;
+}
+.ticketTraitement input,.ticketTraitement select{
+	margin: 10px;
+}
+.ticketTraitement li{
+	margin : center; 
+	width : 300px;
+	height : 50px;
+	border : 1px solid black;
+}
+.ticket1{
+	background-color : #2ecc71;
+}
+.ticket2{
+	background-color : #f1c40f;
+}
+.ticket3{
+	background-color : #e74c3c;
 }

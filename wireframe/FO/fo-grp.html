@@ -2,17 +2,26 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="css/style-tickets.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
 		<title>GPR-FO-tickets</title>
 	</head>
 	<body>
 		<header>
-			<div class="formTicket">
-				<h2>Tickets</h2>
+			<h1>GRP</h1>
+			<nav class="navTicket">
+				<ul>
+					<li class="addTicket"><a href="/fo/fo-grp.html">Ajouter un ticket</a></li>
+					<li class="ticketCours"><a href="/fo/gpr-fo-ticket-cours.html">Tickets en cours</a></li>
+					<li class="ticketHistorique"><a href="/FO/gpr-fo-historique.html">Historique des tickets</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="formTicket">
+				<h2>Ajouter un ticket</h2>
 				<form action="traitement-formulaire.php" method="POST">
 					<p>
 						<label for="objet-ticket">Sujet du ticket :</label><input type="text" name="objet-ticket" id="objet-ticket" placeholder="sujet du ticket"/>
-						<br/>
+						</br>
 						<label for="nature-ticket">Nature du ticket</label>
 						<select name="ticket-nature">
 							<optgroup label="Quel est votre problème ?">
@@ -36,6 +45,8 @@
 						</br>
 						<label for="date">Fixer une date : </label><input type="date" name="calendar" id="calendrier"/>
 						</br>
+					<p/>
+					<p class ="description-textaera">
 						<label for="description-pb">Décrivez votre problème :</label><br />
 						<textarea name="text-aera-description" id="text-aera-description"></textarea>
 					</p>
@@ -45,6 +56,5 @@
 					<input type="submit" name="valider" id="valider" value="Valider">
 				</div>
 			</div>
-		</header>
 	</body>
 </html>
