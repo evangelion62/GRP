@@ -78,13 +78,7 @@ body{
 	margin-top : 10px;
 }
 /****************************************************--NAV-TICKET-***********************************************/
-.navTicket{
-	width : 100%;
-	height : 120px;
-	background-color: #3498db;
-	margin-bottom : 40px;
-	display : block;
-}
+
 .navTicket h1{
 	text-align : center;
 	padding-top : 10px;
@@ -96,6 +90,13 @@ body{
 	font-size : 45px;
 	text-shadow: 2px 2px 2px 2px white;
 	border : 1px solid white;
+	display : block;
+}
+.navTicket{
+	width : 100%;
+	height : 120px;
+	background-color: #3498db;
+	margin-bottom : 40px;
 	display : block;
 }
 .navTicket p{
