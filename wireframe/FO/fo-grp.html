@@ -9,6 +9,7 @@
 		<header>
 			<nav class="navTicket">
 			<h1>GRP</h1>
+			<p>Déconnexion</p>
 				<ul>
 					<li><a href="fo-grp.html">Ajouter un ticket</a></li>
 					<li><a href="gpr-fo-ticket-cours.html">Tickets en cours</a></li>
@@ -21,9 +22,8 @@
 			<form action="traitement-formulaire.php" method="POST">
 				<p>
 					<label for="objet-ticket">Sujet du ticket :</label><input type="text" name="objet-ticket" id="objet-ticket" placeholder="sujet du ticket"/>
-					</br>
-					<label for="nature-ticket">Nature du ticket</label>
-					<select name="ticket-nature">
+					<br/>
+					<label for="ticket-nature">Nature du ticket</label><select name="ticket-nature" id="ticket-nature">
 						<optgroup label="Quel est votre problème ?">
 							<option value="information">Information</option>
 							<option value="question">Question</option>
@@ -32,9 +32,9 @@
 							<option value="noidea">Aucune idée</option>
 						</optgroup>
 					</select>
-					</br>
-					<label for="delais-temps">Quand en avez-vous besoin ?</label>
-					<select name="temps-laps">
+					<br/>
+					<label for="temps-laps">Quand en avez-vous besoin ?</label>
+					<select name="temps-laps" id="temps-laps">
 						<optgroup label="C'est pour...">
 							<option value="urgent">Une urgence</option>
 							<option value="demain">Demain</option>
@@ -42,10 +42,10 @@
 							<option value="fin-semaine">Fin de semaine</option>
 						</optgroup>
 					</select>
-					</br>
-					<label for="date">Fixer une date : </label><input type="date" name="calendar" id="calendrier"/>
-					</br>
-					<label class="description-pb" for="description-pb">Décrivez votre problème :</label>
+					<br/>
+					<label for="date">Fixer une date : </label><input type="date" name="date" id="date"/>
+					<br/>
+					<label class="description-pb" for="text-aera-description">Décrivez votre problème :</label>
 					<br/>
 					<textarea name="text-aera-description" id="text-aera-description"></textarea>
 					<br/>

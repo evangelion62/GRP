@@ -78,35 +78,47 @@ body{
 	margin-top : 10px;
 }
 /****************************************************--NAV-TICKET-***********************************************/
+.navTicket{
+	width : 100%;
+	height : 120px;
+	background-color: #3498db;
+	margin-bottom : 40px;
+	display : block;
+}
 .navTicket h1{
 	text-align : center;
 	padding-top : 10px;
-	width : 100%;
+	padding-bottom : 15px;
+	width : 80%;
 	height : 40px;
 	background-color: #3498db;
 	color : white;
 	font-size : 45px;
 	text-shadow: 2px 2px 2px 2px white;
+	border : 1px solid white;
+	display : block;
 }
-.navTicket{
-	width : 100%;
-	height : 110px;
-	background-color: #3498db;
-	margin-bottom : 40px;
+.navTicket p{
+	color : white;
+	border : 3px solid white;
+	width : 10%;
+	float :right;
+	text-align : center;
+	margin-right : 15px;
 }
 .navTicket ul li {
 	width : 33%;
-	height : 40px;
+	height : 50px;
 	float : left;
 	text-align : center;
 	list-style-type: none;
-	padding-top : 20px;
 	margin-top : 10px;
+	display : block;
+	padding-top : 10px;
 }
 .navTicket ul li:hover{
 	background-color : white;
 	border : 3px solid #3498db;
-	cursor : pointer;
 }
 .navTicket ul li a{
 	text-align : center;
@@ -114,16 +126,19 @@ body{
 	text-decoration : none;
 	width : 100%;
 	color : white;
+	display : block;
+	height : 100%;
 }
 .navTicket ul li:hover a{
 	color: #3498db;
+	display : block;
 	
 }
 
 /****************************************************--AJOUT-TICKET--********************************************/
 .formTicket{
 	width : 800px;
-	height : 500px;
+	height : 600px;
 	margin : center;
 	float : left;
 	background-color : white;
@@ -139,11 +154,20 @@ body{
 }
 .formTicket input,.formTicket select{
 	margin: 10px;
+	margin-top : 20px;
 }
 .formTicket textarea{
 	width : 400px;
 	height : 200px;
-
+	margin-top : 20px;
+}
+.formTicket #reset{
+	margin-top : 20px;
+	margin-left : 225px;
+}
+.formTicket #valider{
+	margin-top : 20px;
+	margin-left : 10px;
 }
 /******************************************************---TICKETS-EN-COURS---**************************************/
 .ticket1, .ticket2, .ticket3, .ticket4{
