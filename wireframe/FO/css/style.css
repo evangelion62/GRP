@@ -140,7 +140,9 @@ body{
 .formTicket input,.formTicket select{
 	margin: 10px;
 }
-.formTicket .description-pb{
+.formTicket textarea{
+	width : 400px;
+	height : 200px;
 
 }
 /******************************************************---TICKETS-EN-COURS---**************************************/
