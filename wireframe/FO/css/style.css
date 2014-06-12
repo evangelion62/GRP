@@ -96,16 +96,25 @@ body{
 	background-color: #3498db;
 	margin-bottom : 40px;
 }
-.navTicket a {
+.navTicket .deco{
 	text-decoration : none;
 	display : block;
 	width : 150px;
 	height : 30px;
 	display : block;
 	position : absolute;
-	margin-left : 900px;
-	margin-top : 10px;
-	border : 1px solid red;
+	margin-left : 1098px;
+	margin-top : 20px;
+	border : 3px solid white;
+	color : white;
+	text-align : center;
+	padding-top : 5px;
+}
+.navTicket .deco:hover{
+	background-color : white;
+	color : #3498db;
+	font-size : 15px;
+	padding-top : 5px;
 }
 .navTicket ul li {
 	width : 33%;
