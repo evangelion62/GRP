@@ -182,50 +182,76 @@ body{
 	margin-left : 10px;
 }
 /******************************************************---TICKETS-EN-COURS---**************************************/
-.ticket{
-	font-size : 20px;
-	color : white;
-	padding-top : 15px;
-	width : 100%;
-	height : 50px;
-	margin-top : 10px;
-	padding-left : 400px;
-}
 .ticketTraitement{
-	padding-right : 40px;
-	padding-left : 40px;
 	width : 100%;
+	height : 600px;
+	display : block;
 }
-
+.ticket {
+	height : 60px;
+	width : 90%;
+	margin : auto;
+	padding-left : 20px; 
+}
 .ticket + p{
 	height : 0px;
 	overflow : hidden;
 	margin-bottom : 15px;
+	margin-left : 15px;
 	transition-property : height;
 	transition-duration : 2s;
+	width : 100%;
+	
+}
+.ticket p{
 	width : 100%;
 }
 .ticket:hover  + p{
 	transition-property : height;
 	transition-duration : 2s;
 	height : 100px;
-	width : 100%;
+	width : 90%;
+	margin : auto;
+
+}
+.ticket + p:hover{
+	height : 100px;
+	width : 90%;
+	margin : auto;
+	overflow : show;
+}
+.divticketrouge{
+	width: 100%;
+	display : block;
 }
 .rouge{
 	background-color : #e74c3c;
 	border : #e74c3c;
+	
 }
 .orange{
 	background-color : #e67e22;
 	border : #e67e22;
 }
+.divticketrouge{
+	width: 100%;
+	display : block;
+}
 .jaune{
 	background-color : #f1c40f;
 	border : #f1c40f;
 }
+.divticketjaune{
+	width: 100%;
+	display : block;
+}
 .vert{
 	background-color : #2ecc71;
 	border : #2ecc71;
+}
+.divticketvert{
+	width: 100%;
+	display : block;
 }
 /******************************************************---HISTORIQUE---********************************************/
 /******************************************************---TICKETS-EN-COURS---**************************************/
