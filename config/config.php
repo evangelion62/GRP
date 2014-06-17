@@ -1,5 +1,5 @@
 <?php
-//Connection à la base de données // 
+//Connection Ã  la base de donnÃ©es // 
 try {
 	$bdd = new PDO('mysql:host=localhost;dbname=GRP', 'grpuser', 'grp', array());
 } catch (PDOException $e) {
