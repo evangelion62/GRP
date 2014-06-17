@@ -6,3 +6,4 @@ try {
 	print "Error!: " . $e->getMessage() . "<br/>";
 	die();
 }
+$controller= $_GET['controller'];
