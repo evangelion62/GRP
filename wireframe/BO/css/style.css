@@ -110,6 +110,7 @@ form{
 	
 }
 form input,form label{
+	display:inline-block;
 	text-shadow:none;
 	color:#7f8c8d;
 	padding:3px;
@@ -117,7 +118,8 @@ form input,form label{
 	background-color: #ecf0f1;
 	box-shadow:0px 0px 1px rgba(236, 240, 241,1.0);
 }
-form label{
+form label,form label .glyphicon{
+	font-size:0.9em;
 	padding-top: 0px;
 }
 form input:hover,form input:focus{
