@@ -8,16 +8,17 @@ try {
 }
 
 //definition de la variable controller en fonction du paramètre reçu en http par methode GET//
-if (isset ($_GET['controller'] && !empty ($_GET['controller']) && strlen($_GET['controller']<=254 ) {
+if (isset ($_GET['controller']) && !empty ($_GET['controller']) && strlen($_GET['controller']) <= 254 ) {
 	$controller = $_GET['controller'];
 	
 }
 else{
 	$controller= "error";	
 }
+
 //definition de la varible action en fonction du paramètre reçu en http par methode GET// 
-if{
-	$action= $_GET['action']
+if(false){
+	$action= $_GET['action'];
 	
 }
 else{
