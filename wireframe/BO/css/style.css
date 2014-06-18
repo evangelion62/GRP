@@ -109,6 +109,7 @@ FORMS
 form{
 	
 }
+
 form input,form label{
 	display:inline-block;
 	text-shadow:none;
@@ -122,6 +123,7 @@ form label,form label .glyphicon{
 	font-size:0.9em;
 	padding-top: 0px;
 }
+
 form input:hover,form input:focus{
 	color:rgba(44, 62, 80,1.0);
 	box-shadow:0px 0px 2px rgba(46, 204, 113,1.0);
@@ -137,6 +139,19 @@ form .btn:HOVER,.btn:FOCUS{
 	background-color:rgba(46, 204, 113,1.0);
 	color:rgba(236, 240, 241,1.0);
 	text-shadow:0px 0px 2px rgba(236, 240, 241,1.0);
+}
+form .inputIcon input,form .inputIcon{
+	padding-left:2px;
+	display:inline-block;
+	background-color: #ecf0f1;
+}
+form .inputIcon label{
+	display:inline-block;
+	padding-right: 4px;
+	font-size: 0.9em;
+}
+form .inputIcon input{
+	border-left: 1px solid #bdc3c7;
 }
 /*****************************************************************************************************************************************************************
 GLYPHICON

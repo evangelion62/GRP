@@ -8,8 +8,8 @@
 	<body>
 		<header>
 			<nav class="navTicket">
+				<a href="fo-grp.html" class="deco">Déconnexion</a>
 				<h1>GRP</h1>
-				<a href="fo-grp.html">Déconnexion</a>
 				<ul>
 					<li><a href="fo-grp.html">Ajouter un ticket</a></li>
 					<li><a href="gpr-fo-ticket-cours.html">Tickets en cours</a></li>
@@ -21,14 +21,14 @@
 			<h2>Ajouter un ticket :</h2>
 			<form action="traitement-formulaire.php" method="POST">
 				<p>
-					<label for="objet-ticket">Sujet du ticket :</label><input type="text" name="objet-ticket" id="objet-ticket" placeholder="sujet du ticket"/>
+					<label for="objet-ticket">Sujet de la demande :</label><input type="text" name="objet-ticket" id="objet-ticket" placeholder="sujet du ticket"/>
 					<br/>
-					<label for="ticket-nature">Nature du ticket</label><select name="ticket-nature" id="ticket-nature">
+					<label for="ticket-nature">Nature de la demande</label><select name="ticket-nature" id="ticket-nature">
 						<optgroup label="Quel est votre problème ?">
-							<option value="information">Information</option>
-							<option value="question">Question</option>
-							<option value="pb-logiciel">Problème logiciel</option>
-							<option value="pb-materiel">Problème matériel</option>
+							<option value="information">Une information ?</option>
+							<option value="question">Une question ?</option>
+							<option value="pb-logiciel">Un problème logiciel ?</option>
+							<option value="pb-materiel">Un problème matériel ?</option>
 							<option value="noidea">Aucune idée</option>
 						</optgroup>
 					</select>
