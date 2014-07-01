@@ -2,7 +2,6 @@
 
 switch ($action) {
 	case 'add':
-		$user = new User();
 		echo 'add user';
 	break;
 	
