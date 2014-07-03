@@ -2,6 +2,6 @@
 /*
  * l'entité manager de l'entité User
  * */
-class UserManager {
+class UserManager extends Manager{
 	
 }
